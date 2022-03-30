@@ -2,14 +2,13 @@ import React, { useEffect, useState } from 'react';
 
 interface CountStateProps {
     count: number;
-    text: string;
 }
 
 const CountState = (props : CountStateProps) => {
     const [count, setCount] = useState(0);
     useEffect(()=>{
 
-    }, [props.text])
+    }, [])
 
     return (
         <div>

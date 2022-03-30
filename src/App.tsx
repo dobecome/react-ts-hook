@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CountState count={0} text='gg'/>
+        <CountState count={0}/>
         {/* <ChatRecipientPicker/> */}
       </header>
     </div>
